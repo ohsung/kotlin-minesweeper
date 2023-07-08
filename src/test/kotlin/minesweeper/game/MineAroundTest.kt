@@ -2,9 +2,9 @@ package minesweeper.game
 
 import io.kotest.core.spec.style.StringSpec
 import io.kotest.matchers.shouldBe
-import minesweeper.domain.game.Coordinate
-import minesweeper.domain.game.position
-import minesweeper.domain.game.toMines
+import minesweeper.domain.board.Coordinate
+import minesweeper.domain.board.position
+import minesweeper.domain.board.toMines
 
 class MineAroundTest : StringSpec({
 

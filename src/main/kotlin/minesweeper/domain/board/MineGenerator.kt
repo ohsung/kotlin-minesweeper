@@ -1,4 +1,4 @@
-package minesweeper.domain.game
+package minesweeper.domain.board
 
 import minesweeper.domain.data.PositiveNumber
 

@@ -1,4 +1,4 @@
-package minesweeper.domain.game
+package minesweeper.domain.board
 
 enum class MineAround(val x: Int, val y: Int) {
     TOP_LEFT(-1, -1),

@@ -1,7 +1,7 @@
 package minesweeper.view
 
-import minesweeper.domain.game.CellType
-import minesweeper.domain.game.Row
+import minesweeper.domain.board.CellType
+import minesweeper.domain.board.Row
 
 fun CellType.toImage(count: String) = when (this) {
     CellType.MINE -> "*"

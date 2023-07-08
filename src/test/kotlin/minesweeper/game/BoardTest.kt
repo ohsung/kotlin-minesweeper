@@ -3,11 +3,11 @@ package minesweeper.game
 import io.kotest.assertions.throwables.shouldThrow
 import io.kotest.core.spec.style.StringSpec
 import io.kotest.matchers.shouldBe
+import minesweeper.domain.board.Board
+import minesweeper.domain.board.CellType
+import minesweeper.domain.board.Coordinate
+import minesweeper.domain.board.toMines
 import minesweeper.domain.data.PositiveNumber
-import minesweeper.domain.game.Board
-import minesweeper.domain.game.CellType
-import minesweeper.domain.game.Coordinate
-import minesweeper.domain.game.toMines
 
 class BoardTest : StringSpec({
     " mine 갯수는 총 Cell 갯수보다 적어야 합니다." {

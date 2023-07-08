@@ -1,4 +1,4 @@
-package minesweeper.domain.game
+package minesweeper.domain.board
 
 data class Mines(private val coordinates: List<Coordinate>) : List<Coordinate> by coordinates {
     fun nearMineCount(coordinate: Coordinate): Int = MineAround.values().map {

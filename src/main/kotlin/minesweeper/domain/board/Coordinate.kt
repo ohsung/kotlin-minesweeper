@@ -1,4 +1,4 @@
-package minesweeper.domain.game
+package minesweeper.domain.board
 
 data class Coordinate(val x: Int, val y: Int)
 

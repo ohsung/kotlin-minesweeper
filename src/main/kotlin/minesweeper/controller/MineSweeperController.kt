@@ -1,8 +1,8 @@
 package minesweeper.controller
 
+import minesweeper.domain.board.Board
+import minesweeper.domain.board.MineGenerator
 import minesweeper.domain.data.PositiveNumber
-import minesweeper.domain.game.Board
-import minesweeper.domain.game.MineGenerator
 import minesweeper.view.InputView
 import minesweeper.view.ResultView
 import minesweeper.view.toShow
